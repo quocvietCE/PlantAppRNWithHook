@@ -1,4 +1,4 @@
-project '/Volumes/Data/ProjectReactNative/PlantAppRNWithHook/ios/PlantAppRNWithHook.xcworkspace'
+project '/Users/apple/Desktop/Project/ReactNativeProject/PlantAppRNWithHook/ios/PlantAppRNWithHook.xcworkspace'
 require_relative '../node_modules/react-native/scripts/react_native_pods'
 require_relative '../node_modules/@react-native-community/cli-platform-ios/native_modules'
 
