@@ -48,7 +48,7 @@ const Settings = ({profileProp = mocks.profile}) => {
   }, [profileProp]);
 
   return (
-    <SafeAreaView style={{flex: 1}}>
+    <SafeAreaView style={{flex: 1, backgroundColor: theme.colors.white}}>
       <Block flex={false} row center space="between" style={styles.header}>
         <Text h1 bold>
           Settings

@@ -210,7 +210,7 @@ const Welcome = ({navigation}) => {
   };
 
   return (
-    <Block>
+    <Block white>
       <Block
         center
         middle

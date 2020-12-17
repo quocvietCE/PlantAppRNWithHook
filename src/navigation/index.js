@@ -77,7 +77,28 @@ const Navigation = () => {
             ),
           })}
         />
-        <Stack.Screen name="Settings" component={Settings} />
+        <Stack.Screen
+          name="Settings"
+          component={Settings}
+          options={({navigation}) => ({
+            headerShown: true,
+            headerTitle: '',
+            headerLeft: () => (
+              <Button
+                onPress={() => {
+                  console.log('Left');
+                  navigation.goBack();
+                }}>
+                <Icon
+                  name="angle-left"
+                  color={themeApp.colors.gray}
+                  size={30}
+                  style={{marginLeft: 20}}
+                />
+              </Button>
+            ),
+          })}
+        />
         <Stack.Screen name="Signup" component={Signup} />
         <Stack.Screen name="Forgot" component={Forgot} />
       </Stack.Navigator>

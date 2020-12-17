@@ -54,7 +54,7 @@ const Login = ({navigation}) => {
 
   return (
     <KeyboardAvoidingView style={styles.login} behavior="padding">
-      <SafeAreaView style={{flex: 1}}>
+      <SafeAreaView style={{flex: 1, backgroundColor: 'white'}}>
         <Block padding={[0, theme.sizes.base * 2]}>
           <Text h1 bold>
             Login
